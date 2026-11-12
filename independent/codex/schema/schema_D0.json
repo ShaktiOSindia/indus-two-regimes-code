@@ -1,0 +1,1478 @@
+{
+ "13.1.m342": {
+  "all": {
+   "concentration": "float",
+   "eligible": "int",
+   "multisign_texts": "int",
+   "rate_740_final": "float",
+   "token_share_740": "float"
+  },
+  "complete": {
+   "concentration": "float",
+   "eligible": "int",
+   "multisign_texts": "int",
+   "rate_740_final": "float",
+   "token_share_740": "float"
+  },
+  "sensitivity_rl_lr": {
+   "concentration": "float",
+   "eligible": "int",
+   "multisign_texts": "int",
+   "rate_740_final": "float",
+   "token_share_740": "float"
+  }
+ },
+ "13.1.table1": {
+  "POT:T:g": "int",
+  "SEAL:R": "int",
+  "SEAL:S": "int",
+  "TAB:B": "int",
+  "TAB:I": "int"
+ },
+ "13.1.table2": {
+  "ebuds_like": {
+   "N": "int",
+   "eligible_enders": "int",
+   "eligible_starters": "int",
+   "enders_top23": "float",
+   "mean_legible_length": "float",
+   "starters_top82": "float",
+   "top69_coverage": "float",
+   "top82_coverage": "float",
+   "top_sign_share": "float"
+  },
+  "full": {
+   "N": "int",
+   "eligible_enders": "int",
+   "eligible_starters": "int",
+   "enders_top23": "float",
+   "mean_legible_length": "float",
+   "starters_top82": "float",
+   "top69_coverage": "float",
+   "top82_coverage": "float",
+   "top_sign_share": "float"
+  },
+  "sensitivity_rl_lr": {
+   "N": "int",
+   "eligible_enders": "int",
+   "eligible_starters": "int",
+   "enders_top23": "float",
+   "mean_legible_length": "float",
+   "starters_top82": "float",
+   "top69_coverage": "float",
+   "top82_coverage": "float",
+   "top_sign_share": "float"
+  }
+ },
+ "13.12.all": {
+  "A_cov10": "float",
+  "B_cov10": "float",
+  "gap": "float"
+ },
+ "13.12.complete": {
+  "A_cov10": "float",
+  "B_cov10": "float",
+  "gap": "float"
+ },
+ "13.13.all": {
+  "accuracy": "float",
+  "balanced_accuracy": "float",
+  "majority_baseline": "float",
+  "seal_recall": "float",
+  "tablet_recall": "float"
+ },
+ "13.13.complete": {
+  "accuracy": "float",
+  "balanced_accuracy": "float",
+  "majority_baseline": "float",
+  "seal_recall": "float",
+  "tablet_recall": "float"
+ },
+ "13.14.all": {
+  "N": {
+   "TAB:B": "int",
+   "TAB:I": "int"
+  },
+  "TAB:B": "float",
+  "TAB:I": "float"
+ },
+ "13.14.complete": {
+  "N": {
+   "TAB:B": "int",
+   "TAB:I": "int"
+  },
+  "TAB:B": "float",
+  "TAB:I": "float"
+ },
+ "13.15": {
+  "any_length": {
+   "distinct_keys": "int",
+   "keys_in_both_TAB:I_and_SEAL:S": "int",
+   "keys_with_more_than_one_type": "int"
+  },
+  "multisign": {
+   "distinct_keys": "int",
+   "keys_in_both_TAB:I_and_SEAL:S": "int",
+   "keys_with_more_than_one_type": "int"
+  }
+ },
+ "13.16": {
+  "P2": {
+   "all_rows": "int",
+   "analyzable": "int",
+   "pct_analyzable": "float",
+   "real_cisi_all_rows": "int",
+   "real_cisi_analyzable": "int"
+  },
+  "P4": {
+   "rows_H104_H128": "int",
+   "rows_without_legible_sign": "int"
+  },
+  "P5": {
+   "distinct_legible_signs": "int",
+   "legible_tokens": "int",
+   "tokens_000": "int",
+   "tokens_999": "int"
+  },
+  "P7": {
+   "analyzable_texts": "int",
+   "icit_objects": "int",
+   "multisign_tab_texts": "int",
+   "pct_on_multi_text_objects": "float",
+   "tab_objects_repeating_a_key": "int",
+   "tab_objects_with_more_than_one_multisign_text": "int",
+   "texts_on_multi_text_objects": "int",
+   "within_object_repeats": "int"
+  }
+ },
+ "13.17.all": {
+  "K": "int",
+  "base": {
+   "SEAL:S": "float",
+   "TAB:I": "float",
+   "gap": "float"
+  },
+  "bite_merge40": {
+   "distinct_after": "int",
+   "distinct_before": "int",
+   "sequences_altered": "int",
+   "tablet_tokens": "int",
+   "tokens_rewritten": "int"
+  },
+  "marker": {
+   "baseline": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   },
+   "both_halves": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   },
+   "half_740a": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   },
+   "half_740b": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   }
+  },
+  "note_load_bearing_codes": "int",
+  "provenance": {
+   "0.02": {
+    "fragments_of_original": "int",
+    "k": "int",
+    "pct": "float",
+    "top10_texts": "int"
+   },
+   "0.4": {
+    "fragments_of_original": "int",
+    "k": "int",
+    "pct": "float",
+    "top10_texts": "int"
+   }
+  },
+  "series": {
+   "MERGE": {
+    "rows": {
+     "__list__": 6,
+     "item": {
+      "gap_mean": "float",
+      "gap_p5": "float",
+      "gap_p95": "float",
+      "inverted_pct": "float",
+      "k": "int",
+      "rate": "float",
+      "seal_mean": "float",
+      "tab_mean": "float"
+     }
+    },
+    "sea": {
+     "__list__": 7,
+     "item": "float"
+    },
+    "tab": {
+     "__list__": 7,
+     "item": "float"
+    }
+   },
+   "SPLIT": {
+    "rows": {
+     "__list__": 6,
+     "item": {
+      "gap_mean": "float",
+      "gap_p5": "float",
+      "gap_p95": "float",
+      "inverted_pct": "float",
+      "k": "int",
+      "rate": "float",
+      "seal_mean": "float",
+      "tab_mean": "float"
+     }
+    },
+    "sea": {
+     "__list__": 7,
+     "item": "float"
+    },
+    "tab": {
+     "__list__": 7,
+     "item": "float"
+    }
+   },
+   "SPLIT-WORST": {
+    "rows": {
+     "__list__": 6,
+     "item": {
+      "gap_mean": "float",
+      "gap_p5": "float",
+      "gap_p95": "float",
+      "inverted_pct": "float",
+      "k": "int",
+      "rate": "float",
+      "seal_mean": "float",
+      "tab_mean": "float"
+     }
+    },
+    "sea": {
+     "__list__": 7,
+     "item": "float"
+    },
+    "tab": {
+     "__list__": 7,
+     "item": "float"
+    }
+   }
+  }
+ },
+ "13.17.complete": {
+  "K": "int",
+  "base": {
+   "SEAL:S": "float",
+   "TAB:I": "float",
+   "gap": "float"
+  },
+  "bite_merge40": {
+   "distinct_after": "int",
+   "distinct_before": "int",
+   "sequences_altered": "int",
+   "tablet_tokens": "int",
+   "tokens_rewritten": "int"
+  },
+  "marker": {
+   "baseline": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   },
+   "both_halves": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   },
+   "half_740a": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   },
+   "half_740b": {
+    "enrichment": "float",
+    "nonterminal_pct": "float",
+    "terminal_pct": "float"
+   }
+  },
+  "note_load_bearing_codes": "int",
+  "provenance": {
+   "0.02": {
+    "fragments_of_original": "int",
+    "k": "int",
+    "pct": "float",
+    "top10_texts": "int"
+   },
+   "0.4": {
+    "fragments_of_original": "int",
+    "k": "int",
+    "pct": "float",
+    "top10_texts": "int"
+   }
+  },
+  "series": {
+   "MERGE": {
+    "rows": {
+     "__list__": 6,
+     "item": {
+      "gap_mean": "float",
+      "gap_p5": "float",
+      "gap_p95": "float",
+      "inverted_pct": "float",
+      "k": "int",
+      "rate": "float",
+      "seal_mean": "float",
+      "tab_mean": "float"
+     }
+    },
+    "sea": {
+     "__list__": 7,
+     "item": "float"
+    },
+    "tab": {
+     "__list__": 7,
+     "item": "float"
+    }
+   },
+   "SPLIT": {
+    "rows": {
+     "__list__": 6,
+     "item": {
+      "gap_mean": "float",
+      "gap_p5": "float",
+      "gap_p95": "float",
+      "inverted_pct": "float",
+      "k": "int",
+      "rate": "float",
+      "seal_mean": "float",
+      "tab_mean": "float"
+     }
+    },
+    "sea": {
+     "__list__": 7,
+     "item": "float"
+    },
+    "tab": {
+     "__list__": 7,
+     "item": "float"
+    }
+   },
+   "SPLIT-WORST": {
+    "rows": {
+     "__list__": 6,
+     "item": {
+      "gap_mean": "float",
+      "gap_p5": "float",
+      "gap_p95": "float",
+      "inverted_pct": "float",
+      "k": "int",
+      "rate": "float",
+      "seal_mean": "float",
+      "tab_mean": "float"
+     }
+    },
+    "sea": {
+     "__list__": 7,
+     "item": "float"
+    },
+    "tab": {
+     "__list__": 7,
+     "item": "float"
+    }
+   }
+  }
+ },
+ "13.18.all": {
+  "F2": {
+   "ALL": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int"
+   },
+   "POT:T:g": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "SEAL:R": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "SEAL:S": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "TAB:B": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "TAB:I": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   }
+  },
+  "F3": "str",
+  "F6": {
+   "0": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "100": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "200": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "400": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "600": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   }
+  }
+ },
+ "13.18.complete": {
+  "F2": {
+   "ALL": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int"
+   },
+   "POT:T:g": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "SEAL:R": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "SEAL:S": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "TAB:B": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   },
+   "TAB:I": {
+    "N": "int",
+    "ge1": "int",
+    "ge2": "int",
+    "rate_pct": "float"
+   }
+  },
+  "F3": "str",
+  "F6": {
+   "0": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "100": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "200": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "400": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   },
+   "600": {
+    "SEAL:S": "float",
+    "TAB:I": "float",
+    "gap": "float"
+   }
+  }
+ },
+ "13.19": {
+  "mutant": {
+   "T1.-": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.BUS": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.L/R": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.NR": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.R/L": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.SYM": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.T/B": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.-": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.BUS": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.L/R": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.NR": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.R/L": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.SYM": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.T/B": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T3": {
+    "N": "int",
+    "reversed": "int",
+    "same": "int"
+   },
+   "T4": {
+    "reversed": "float",
+    "same": "float"
+   }
+  },
+  "real": {
+   "T1.-": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.BUS": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.L/R": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.NR": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.R/L": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.SYM": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T1.T/B": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.-": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.BUS": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.L/R": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.NR": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.R/L": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.SYM": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T2.T/B": {
+    "N": "int",
+    "left": "int",
+    "right": "int"
+   },
+   "T3": {
+    "N": "int",
+    "reversed": "int",
+    "same": "int"
+   },
+   "T4": {
+    "reversed": "float",
+    "same": "float"
+   }
+  },
+  "verdict": {
+   "T1_LR_740_on_left_like_RL": "bool",
+   "T1_mutant_flips": "bool",
+   "T2_LR_initials_on_right": "bool",
+   "T2_mutant_flips": "bool",
+   "T3_identical_as_stored": "bool",
+   "T3_mutant_flips": "bool",
+   "T4_mutant_flips": "bool",
+   "T4_pairs_as_stored": "bool"
+  }
+ },
+ "13.2.null.POT:T:g.all": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.POT:T:g.complete": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.SEAL:R.all": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.SEAL:R.complete": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.SEAL:S.all": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.SEAL:S.complete": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.TAB:B.all": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.TAB:B.complete": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.TAB:I.all": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.null.TAB:I.complete": {
+  "iterations": "int",
+  "null_mean": "float",
+  "null_min": "float",
+  "observed": "float",
+  "p": "float",
+  "reduction_pct": "float",
+  "templated": "bool"
+ },
+ "13.2.singleton.POT:T:g.all": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.POT:T:g.complete": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.SEAL:R.all": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.SEAL:R.complete": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.SEAL:S.all": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.SEAL:S.complete": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.TAB:B.all": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.TAB:B.complete": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.TAB:I.all": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.singleton.TAB:I.complete": {
+  "observed": "float",
+  "shuffled_mean": "float"
+ },
+ "13.2.table3.all": {
+  "POT:T:g": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "SEAL:R": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "SEAL:S": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "SEALS pooled": {
+   "H3": "float",
+   "N": "int",
+   "mean_legible_length": "float"
+  },
+  "TAB:B": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "TAB:I": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "TABLETS pooled": {
+   "H3": "float",
+   "N": "int",
+   "mean_legible_length": "float"
+  }
+ },
+ "13.2.table3.complete": {
+  "POT:T:g": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "SEAL:R": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "SEAL:S": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "SEALS pooled": {
+   "H3": "float",
+   "N": "int",
+   "mean_legible_length": "float"
+  },
+  "TAB:B": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "TAB:I": {
+   "H1": "float",
+   "H3": "float",
+   "H3_mm": "float",
+   "N": "int",
+   "ktri_over_n": "float",
+   "mean_legible_length": "float"
+  },
+  "TABLETS pooled": {
+   "H3": "float",
+   "N": "int",
+   "mean_legible_length": "float"
+  }
+ },
+ "13.3.all": {
+  "A_length_profile": {
+   "<legible length>": {
+    "pct": "float",
+    "texts": "int"
+   },
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "B_terminals": {
+   "eligible_multisign": "int",
+   "top4": {
+    "__list__": 4,
+    "item": {
+     "pct_of_eligible": "float",
+     "preceders_top5": {
+      "__list__": 5,
+      "item": {
+       "__tuple__": [
+        "str",
+        "int"
+       ]
+      }
+     },
+     "terminal": "str",
+     "texts": "int",
+     "top5_cover_pct": "float"
+    }
+   }
+  },
+  "C_slot": {
+   "family_member_then_700": "int",
+   "family_pct_of_multisign": "float",
+   "members_present": {
+    "<number of distinct members present>": "int",
+    "__keys__": "one entry per value that occurs (see the specification)"
+   },
+   "pct_followed_by_700": "float",
+   "position_when_present": {
+    "initial": "int",
+    "medial": "int",
+    "terminal": "int"
+   },
+   "right_neighbours_top4": {
+    "__list__": 4,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int"
+     ]
+    }
+   }
+  },
+  "D_templates": {
+   "distinct_keys": "int",
+   "keys_shared": "int",
+   "multisign_texts": "int",
+   "repeat_share": "float",
+   "texts_on_shared_keys": "int",
+   "top10_cumulative": {
+    "__list__": 10,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int",
+      "float"
+     ]
+    }
+   }
+  },
+  "E_productivity": {
+   "SEAL:S": {
+    "N": "int",
+    "cov10": "float",
+    "once_pct": "float"
+   },
+   "TAB:I": {
+    "N": "int",
+    "cov10": "float",
+    "once_pct": "float"
+   }
+  }
+ },
+ "13.3.complete": {
+  "A_length_profile": {
+   "<legible length>": {
+    "pct": "float",
+    "texts": "int"
+   },
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "B_terminals": {
+   "eligible_multisign": "int",
+   "top4": {
+    "__list__": 4,
+    "item": {
+     "pct_of_eligible": "float",
+     "preceders_top5": {
+      "__list__": 5,
+      "item": {
+       "__tuple__": [
+        "str",
+        "int"
+       ]
+      }
+     },
+     "terminal": "str",
+     "texts": "int",
+     "top5_cover_pct": "float"
+    }
+   }
+  },
+  "C_slot": {
+   "family_member_then_700": "int",
+   "family_pct_of_multisign": "float",
+   "members_present": {
+    "<number of distinct members present>": "int",
+    "__keys__": "one entry per value that occurs (see the specification)"
+   },
+   "pct_followed_by_700": "float",
+   "position_when_present": {
+    "initial": "int",
+    "medial": "int",
+    "terminal": "int"
+   },
+   "right_neighbours_top4": {
+    "__list__": 4,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int"
+     ]
+    }
+   }
+  },
+  "D_templates": {
+   "distinct_keys": "int",
+   "keys_shared": "int",
+   "multisign_texts": "int",
+   "repeat_share": "float",
+   "texts_on_shared_keys": "int",
+   "top10_cumulative": {
+    "__list__": 10,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int",
+      "float"
+     ]
+    }
+   }
+  },
+  "E_productivity": {
+   "SEAL:S": {
+    "N": "int",
+    "cov10": "float",
+    "once_pct": "float"
+   },
+   "TAB:I": {
+    "N": "int",
+    "cov10": "float",
+    "once_pct": "float"
+   }
+  }
+ },
+ "13.5.all": {
+  "share_pct": "float",
+  "texts_top10": "int",
+  "texts_two_sign": "int",
+  "top10_two_sign_keys": "int"
+ },
+ "13.5.complete": {
+  "share_pct": "float",
+  "texts_top10": "int",
+  "texts_two_sign": "int",
+  "top10_two_sign_keys": "int"
+ },
+ "13.7.all": {
+  "A_length_profile": {
+   "<legible length>": "int",
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "A_mean_legible_length": "float",
+  "C_terminals": {
+   "eligible": "int",
+   "top3": {
+    "__list__": 3,
+    "item": {
+     "distinct_stems": "int",
+     "distinct_stems_pct": "float",
+     "pct_of_eligible": "float",
+     "stems_once_pct": "float",
+     "terminal": "str",
+     "texts": "int"
+    }
+   }
+  },
+  "D_openers": {
+   "eligible": "int",
+   "top5": {
+    "__list__": 5,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int"
+     ]
+    }
+   },
+   "top5_pct": "float"
+  },
+  "E_reuse": {
+   "SEAL:S": {
+    "frame_cov10": "float",
+    "frame_texts": "int",
+    "whole_text_cov10": "float"
+   },
+   "TAB:I": {
+    "frame_cov10": "float",
+    "frame_texts": "int",
+    "whole_text_cov10": "float"
+   }
+  }
+ },
+ "13.7.complete": {
+  "A_length_profile": {
+   "<legible length>": "int",
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "A_mean_legible_length": "float",
+  "C_terminals": {
+   "eligible": "int",
+   "top3": {
+    "__list__": 3,
+    "item": {
+     "distinct_stems": "int",
+     "distinct_stems_pct": "float",
+     "pct_of_eligible": "float",
+     "stems_once_pct": "float",
+     "terminal": "str",
+     "texts": "int"
+    }
+   }
+  },
+  "D_openers": {
+   "eligible": "int",
+   "top5": {
+    "__list__": 5,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int"
+     ]
+    }
+   },
+   "top5_pct": "float"
+  },
+  "E_reuse": {
+   "SEAL:S": {
+    "frame_cov10": "float",
+    "frame_texts": "int",
+    "whole_text_cov10": "float"
+   },
+   "TAB:I": {
+    "frame_cov10": "float",
+    "frame_texts": "int",
+    "whole_text_cov10": "float"
+   }
+  }
+ },
+ "13.8.all": {
+  "adequately_sampled_sites": "int",
+  "appendix_G4": {
+   "G4a": {
+    "core": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "p": "float",
+    "regional": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "z": "float"
+   },
+   "G4b_by_length": {
+    "2": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "3": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "4": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "5": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "6": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    }
+   },
+   "G4b_matched": {
+    "3": {
+     "core": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     },
+     "regional": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     }
+    },
+    "4": {
+     "core": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     },
+     "regional": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     }
+    },
+    "5": {
+     "core": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     },
+     "regional": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     }
+    }
+   },
+   "G4b_mean_length": {
+    "core": "float",
+    "regional": "float"
+   }
+  },
+  "distinct_sites_with_SEAL:S": "int",
+  "foreign_itemised": {
+   "<site>": {
+    "eligible": "int",
+    "end_740": "int",
+    "multisign": "int"
+   },
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "sites_rate_740": {
+   "<site>": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   },
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "tiers": {
+   "core": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   },
+   "foreign": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   },
+   "regional": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   }
+  }
+ },
+ "13.8.complete": {
+  "adequately_sampled_sites": "int",
+  "appendix_G4": {
+   "G4a": {
+    "core": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "p": "float",
+    "regional": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "z": "float"
+   },
+   "G4b_by_length": {
+    "2": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "3": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "4": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "5": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    },
+    "6": {
+     "N": "int",
+     "hits": "int",
+     "rate": "float"
+    }
+   },
+   "G4b_matched": {
+    "3": {
+     "core": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     },
+     "regional": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     }
+    },
+    "4": {
+     "core": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     },
+     "regional": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     }
+    },
+    "5": {
+     "core": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     },
+     "regional": {
+      "N": "int",
+      "hits": "int",
+      "rate": "float"
+     }
+    }
+   },
+   "G4b_mean_length": {
+    "core": "float",
+    "regional": "float"
+   }
+  },
+  "distinct_sites_with_SEAL:S": "int",
+  "foreign_itemised": {
+   "<site>": {
+    "eligible": "int",
+    "end_740": "int",
+    "multisign": "int"
+   },
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "sites_rate_740": {
+   "<site>": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   },
+   "__keys__": "one entry per value that occurs (see the specification)"
+  },
+  "tiers": {
+   "core": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   },
+   "foreign": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   },
+   "regional": {
+    "N": "int",
+    "hits": "int",
+    "rate": "float"
+   }
+  }
+ },
+ "13.8.site_shares": {
+  "SEAL:S": {
+   "N": "int",
+   "harappa_pct": "float",
+   "top5": {
+    "__list__": 5,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int",
+      "float"
+     ]
+    }
+   }
+  },
+  "TAB:I": {
+   "N": "int",
+   "harappa_pct": "float",
+   "top5": {
+    "__list__": 5,
+    "item": {
+     "__tuple__": [
+      "str",
+      "int",
+      "float"
+     ]
+    }
+   }
+  }
+ }
+}

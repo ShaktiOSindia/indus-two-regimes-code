@@ -1,0 +1,369 @@
+==============================================================================================================
+full_output.json vs output_D0.json | top-level keys: theirs 47, missing in ours []
+values compared: 1436 | equal: 1381 | differ: 55 | only ours: 0 | only theirs: 0
+  top-level key                        equal  differ only ours only theirs
+  13.1.m342                               10       5         0           0   <--
+  13.1.table1                              5       0         0           0
+  13.1.table2                             18       9         0           0   <--
+  13.2.null.POT:T:g.all                    7       0         0           0
+  13.2.null.POT:T:g.complete               7       0         0           0
+  13.2.null.SEAL:R.all                     7       0         0           0
+  13.2.null.SEAL:R.complete                7       0         0           0
+  13.2.null.SEAL:S.all                     7       0         0           0
+  13.2.null.SEAL:S.complete                7       0         0           0
+  13.2.null.TAB:B.all                      7       0         0           0
+  13.2.null.TAB:B.complete                 7       0         0           0
+  13.2.null.TAB:I.all                      7       0         0           0
+  13.2.null.TAB:I.complete                 7       0         0           0
+  13.2.singleton.POT:T:g.all               2       0         0           0
+  13.2.singleton.POT:T:g.complete          2       0         0           0
+  13.2.singleton.SEAL:R.all                2       0         0           0
+  13.2.singleton.SEAL:R.complete           2       0         0           0
+  13.2.singleton.SEAL:S.all                2       0         0           0
+  13.2.singleton.SEAL:S.complete           2       0         0           0
+  13.2.singleton.TAB:B.all                 2       0         0           0
+  13.2.singleton.TAB:B.complete            2       0         0           0
+  13.2.singleton.TAB:I.all                 2       0         0           0
+  13.2.singleton.TAB:I.complete            2       0         0           0
+  13.2.table3.all                         31       5         0           0   <--
+  13.2.table3.complete                    31       5         0           0   <--
+  13.3.all                               120       0         0           0
+  13.3.complete                          120       0         0           0
+  13.5.all                                 4       0         0           0
+  13.5.complete                            4       0         0           0
+  13.7.all                                46       6         0           0   <--
+  13.7.complete                           52       0         0           0
+  13.8.all                                91       2         0           0   <--
+  13.8.complete                           85       2         0           0   <--
+  13.8.site_shares                        34       0         0           0
+  13.12.all                                3       0         0           0
+  13.12.complete                           3       0         0           0
+  13.13.all                                5       0         0           0
+  13.13.complete                           5       0         0           0
+  13.14.all                                4       0         0           0
+  13.14.complete                           4       0         0           0
+  13.15                                    6       0         0           0
+  13.16                                   17       2         0           0   <--
+  13.17.all                              210       6         0           0   <--
+  13.17.complete                         210       6         0           0   <--
+  13.18.all                               38       1         0           0   <--
+  13.18.complete                          33       6         0           0   <--
+  13.19                                  102       0         0           0
+DIFF  13.1.m342/sensitivity_rl_lr/concentration
+      ours 2.7069542163506264 | theirs 2.7062592605563496
+DIFF  13.1.m342/sensitivity_rl_lr/eligible
+      ours 3665 | theirs 3667
+DIFF  13.1.m342/sensitivity_rl_lr/multisign_texts
+      ours 4200 | theirs 4202
+DIFF  13.1.m342/sensitivity_rl_lr/rate_740_final
+      ours 31.10504774897681 | theirs 31.115353149713663
+DIFF  13.1.m342/sensitivity_rl_lr/token_share_740
+      ours 11.490791961347245 | theirs 11.497550734779566
+DIFF  13.1.table2/sensitivity_rl_lr/N
+      ours 4452 | theirs 4454
+DIFF  13.1.table2/sensitivity_rl_lr/eligible_enders
+      ours 3788 | theirs 3790
+DIFF  13.1.table2/sensitivity_rl_lr/eligible_starters
+      ours 3545 | theirs 3546
+DIFF  13.1.table2/sensitivity_rl_lr/enders_top23
+      ours 83.60612460401268 | theirs 83.61477572559367
+DIFF  13.1.table2/sensitivity_rl_lr/mean_legible_length
+      ours 3.6942946990116803 | theirs 3.6946564885496183
+DIFF  13.1.table2/sensitivity_rl_lr/starters_top82
+      ours 81.07193229901269 | theirs 81.04906937394247
+DIFF  13.1.table2/sensitivity_rl_lr/top69_coverage
+      ours 79.09041162522041 | theirs 79.0957705396208
+DIFF  13.1.table2/sensitivity_rl_lr/top82_coverage
+      ours 82.41624612391317 | theirs 82.41978609625669
+DIFF  13.1.table2/sensitivity_rl_lr/top_sign_share
+      ours 11.193530735088466 | theirs 11.199562469615946
+DIFF  13.16/P2/pct_analyzable
+      ours 88.48101265822785 | theirs 97.37629864412749
+DIFF  13.16/P4/rows_without_legible_sign
+      ours 148 | theirs 149
+DIFF  13.17.all/marker/half_740a/enrichment
+      ours 20.031852387843703 | theirs 15.17816369191188
+DIFF  13.17.all/marker/half_740a/nonterminal_pct
+      ours 1.036699149906697 | theirs 1.3062409288824384
+DIFF  13.17.all/marker/half_740a/terminal_pct
+      ours 20.767004341534008 | theirs 19.826338639652676
+DIFF  13.17.all/marker/half_740b/enrichment
+      ours 13.411070911722144 | theirs 17.265671414426084
+DIFF  13.17.all/marker/half_740b/nonterminal_pct
+      ours 1.4513788098693758 | theirs 1.1818370308936346
+DIFF  13.17.all/marker/half_740b/terminal_pct
+      ours 19.46454413892909 | theirs 20.40520984081042
+DIFF  13.17.complete/marker/half_740a/enrichment
+      ours 15.521177270759908 | theirs 15.67770183009418
+DIFF  13.17.complete/marker/half_740a/nonterminal_pct
+      ours 1.2476894639556377 | theirs 1.2245841035120149
+DIFF  13.17.complete/marker/half_740a/terminal_pct
+      ours 19.36560934891486 | theirs 19.198664440734557
+DIFF  13.17.complete/marker/half_740b/enrichment
+      ours 16.086685356096638 | theirs 15.92258702776232
+DIFF  13.17.complete/marker/half_740b/nonterminal_pct
+      ours 1.2245841035120149 | theirs 1.2476894639556377
+DIFF  13.17.complete/marker/half_740b/terminal_pct
+      ours 19.69949916527546 | theirs 19.86644407345576
+DIFF  13.18.all/F3
+      ours 'not computed (13.18): one documented reading order after R1' | theirs 'Not computed: R1 defines one documented reading convention.'
+DIFF  13.18.complete/F3
+      ours 'not computed (13.18): one documented reading order after R1' | theirs 'Not computed: R1 defines one documented reading convention.'
+DIFF  13.18.complete/F6/400/SEAL:S
+      ours 3.5629453681710213 | theirs 4.038004750593824
+DIFF  13.18.complete/F6/400/gap
+      ours 47.314247614285115 | theirs 46.83918823186231
+DIFF  13.18.complete/F6/600/SEAL:S
+      ours 5.542359461599367 | theirs 7.917656373713381
+DIFF  13.18.complete/F6/600/TAB:I
+      ours 52.45614035087719 | theirs 53.1578947368421
+DIFF  13.18.complete/F6/600/gap
+      ours 46.913780889277824 | theirs 45.240238363128725
+DIFF  13.2.table3.all/POT:T:g/ktri_over_n
+      ours 100.0 | theirs 1.0
+DIFF  13.2.table3.all/SEAL:R/ktri_over_n
+      ours 87.54208754208754 | theirs 0.8754208754208754
+DIFF  13.2.table3.all/SEAL:S/ktri_over_n
+      ours 73.88235294117646 | theirs 0.7388235294117647
+DIFF  13.2.table3.all/TAB:B/ktri_over_n
+      ours 43.27894327894328 | theirs 0.43278943278943277
+DIFF  13.2.table3.all/TAB:I/ktri_over_n
+      ours 49.321266968325794 | theirs 0.49321266968325794
+DIFF  13.2.table3.complete/POT:T:g/ktri_over_n
+      ours 100.0 | theirs 1.0
+DIFF  13.2.table3.complete/SEAL:R/ktri_over_n
+      ours 88.3495145631068 | theirs 0.883495145631068
+DIFF  13.2.table3.complete/SEAL:S/ktri_over_n
+      ours 76.03108188882247 | theirs 0.7603108188882247
+DIFF  13.2.table3.complete/TAB:B/ktri_over_n
+      ours 44.38642297650131 | theirs 0.44386422976501305
+DIFF  13.2.table3.complete/TAB:I/ktri_over_n
+      ours 48.6284289276808 | theirs 0.486284289276808
+DIFF  13.7.all/C_terminals/top3[0]/distinct_stems
+      ours 513 | theirs 508
+DIFF  13.7.all/C_terminals/top3[0]/distinct_stems_pct
+      ours 92.26618705035972 | theirs 91.36690647482014
+DIFF  13.7.all/C_terminals/top3[0]/stems_once_pct
+      ours 87.23021582733813 | theirs 86.15107913669065
+DIFF  13.7.all/C_terminals/top3[1]/distinct_stems
+      ours 132 | theirs 130
+DIFF  13.7.all/C_terminals/top3[1]/distinct_stems_pct
+      ours 91.66666666666667 | theirs 90.27777777777777
+DIFF  13.7.all/C_terminals/top3[1]/stems_once_pct
+      ours 85.41666666666667 | theirs 83.33333333333333
+DIFF  13.8.all/appendix_G4/G4b_mean_length/core
+      ours 4.56283185840708 | theirs 4.563984674329502
+DIFF  13.8.all/appendix_G4/G4b_mean_length/regional
+      ours 4.142276422764228 | theirs 4.25
+DIFF  13.8.complete/appendix_G4/G4b_mean_length/core
+      ours 4.70061099796334 | theirs 4.826044703595724
+DIFF  13.8.complete/appendix_G4/G4b_mean_length/regional
+      ours 4.194312796208531 | theirs 4.432314410480349
+==============================================================================================================
+full_output_D1.json vs output_D1.json | top-level keys: theirs 43, missing in ours []
+values compared: 1269 | equal: 1213 | differ: 56 | only ours: 0 | only theirs: 0
+  top-level key                        equal  differ only ours only theirs
+  13.1.m342                               10       5         0           0   <--
+  13.1.table2                              9       9         0           0   <--
+  13.2.null.POT:T:g.all                    7       0         0           0
+  13.2.null.POT:T:g.complete               7       0         0           0
+  13.2.null.SEAL:R.all                     7       0         0           0
+  13.2.null.SEAL:R.complete                7       0         0           0
+  13.2.null.SEAL:S.all                     7       0         0           0
+  13.2.null.SEAL:S.complete                7       0         0           0
+  13.2.null.TAB:B.all                      7       0         0           0
+  13.2.null.TAB:B.complete                 7       0         0           0
+  13.2.null.TAB:I.all                      7       0         0           0
+  13.2.null.TAB:I.complete                 7       0         0           0
+  13.2.singleton.POT:T:g.all               2       0         0           0
+  13.2.singleton.POT:T:g.complete          2       0         0           0
+  13.2.singleton.SEAL:R.all                2       0         0           0
+  13.2.singleton.SEAL:R.complete           2       0         0           0
+  13.2.singleton.SEAL:S.all                2       0         0           0
+  13.2.singleton.SEAL:S.complete           2       0         0           0
+  13.2.singleton.TAB:B.all                 2       0         0           0
+  13.2.singleton.TAB:B.complete            2       0         0           0
+  13.2.singleton.TAB:I.all                 2       0         0           0
+  13.2.singleton.TAB:I.complete            2       0         0           0
+  13.2.table3.all                         31       5         0           0   <--
+  13.2.table3.complete                    31       5         0           0   <--
+  13.3.all                               122       0         0           0
+  13.3.complete                          122       0         0           0
+  13.5.all                                 4       0         0           0
+  13.5.complete                            4       0         0           0
+  13.7.all                                46       6         0           0   <--
+  13.7.complete                           52       0         0           0
+  13.8.all                                90       2         0           0   <--
+  13.8.complete                           84       2         0           0   <--
+  13.12.all                                3       0         0           0
+  13.12.complete                           3       0         0           0
+  13.13.all                                5       0         0           0
+  13.13.complete                           5       0         0           0
+  13.14.all                                4       0         0           0
+  13.14.complete                           4       0         0           0
+  13.15                                    6       0         0           0
+  13.17.all                              210       6         0           0   <--
+  13.17.complete                         210       6         0           0   <--
+  13.18.all                               36       3         0           0   <--
+  13.18.complete                          32       7         0           0   <--
+DIFF  13.1.m342/sensitivity_rl_lr/concentration
+      ours 3.038467966119657 | theirs 3.039565034430994
+DIFF  13.1.m342/sensitivity_rl_lr/eligible
+      ours 2638 | theirs 2639
+DIFF  13.1.m342/sensitivity_rl_lr/multisign_texts
+      ours 3157 | theirs 3158
+DIFF  13.1.m342/sensitivity_rl_lr/rate_740_final
+      ours 35.97422289613343 | theirs 35.998484274346346
+DIFF  13.1.m342/sensitivity_rl_lr/token_share_740
+      ours 11.839592616168046 | theirs 11.84330121796037
+DIFF  13.1.table2/sensitivity_rl_lr/N
+      ours 3364 | theirs 3365
+DIFF  13.1.table2/sensitivity_rl_lr/eligible_enders
+      ours 2723 | theirs 2724
+DIFF  13.1.table2/sensitivity_rl_lr/eligible_starters
+      ours 2540 | theirs 2541
+DIFF  13.1.table2/sensitivity_rl_lr/enders_top23
+      ours 80.42600073448402 | theirs 80.43318649045521
+DIFF  13.1.table2/sensitivity_rl_lr/mean_legible_length
+      ours 3.8864447086801426 | theirs 3.886775631500743
+DIFF  13.1.table2/sensitivity_rl_lr/starters_top82
+      ours 76.73228346456693 | theirs 76.70208579299488
+DIFF  13.1.table2/sensitivity_rl_lr/top69_coverage
+      ours 77.59675692213554 | theirs 77.597675663277
+DIFF  13.1.table2/sensitivity_rl_lr/top82_coverage
+      ours 81.0004589261129 | theirs 81.00007645844484
+DIFF  13.1.table2/sensitivity_rl_lr/top_sign_share
+      ours 11.297231145785528 | theirs 11.300558146647298
+DIFF  13.17.all/marker/half_740a/enrichment
+      ours 15.749122146977678 | theirs 16.318246164441216
+DIFF  13.17.all/marker/half_740a/nonterminal_pct
+      ours 1.2660898923823591 | theirs 1.2449883941759865
+DIFF  13.17.all/marker/half_740a/terminal_pct
+      ours 19.939804364183598 | theirs 20.31602708803612
+DIFF  13.17.all/marker/half_740b/enrichment
+      ours 16.165136694256333 | theirs 15.607852570032936
+DIFF  13.17.all/marker/half_740b/nonterminal_pct
+      ours 1.2660898923823591 | theirs 1.2871913905887318
+DIFF  13.17.all/marker/half_740b/terminal_pct
+      ours 20.466516177577127 | theirs 20.090293453724605
+DIFF  13.17.complete/marker/half_740a/enrichment
+      ours 16.165873137766855 | theirs 15.199303742384684
+DIFF  13.17.complete/marker/half_740a/nonterminal_pct
+      ours 1.2005649717514124 | theirs 1.271186440677966
+DIFF  13.17.complete/marker/half_740a/terminal_pct
+      ours 19.40818102697998 | theirs 19.321148825065276
+DIFF  13.17.complete/marker/half_740b/enrichment
+      ours 15.05259231629989 | theirs 15.974382974530764
+DIFF  13.17.complete/marker/half_740b/nonterminal_pct
+      ours 1.3182674199623352 | theirs 1.2476459510357816
+DIFF  13.17.complete/marker/half_740b/terminal_pct
+      ours 19.843342036553526 | theirs 19.930374238468232
+DIFF  13.18.all/F3
+      ours 'not computed (13.18): one documented reading order after R1' | theirs 'Not computed: R1 defines one documented reading convention.'
+DIFF  13.18.all/F6/400/TAB:I
+      ours 4.126984126984127 | theirs 4.761904761904762
+DIFF  13.18.all/F6/400/gap
+      ours 2.142349043757495 | theirs 2.7772696786781292
+DIFF  13.18.complete/F3
+      ours 'not computed (13.18): one documented reading order after R1' | theirs 'Not computed: R1 defines one documented reading convention.'
+DIFF  13.18.complete/F6/400/SEAL:S
+      ours 2.555647155812036 | theirs 3.1327287716405605
+DIFF  13.18.complete/F6/400/TAB:I
+      ours 6.842105263157895 | theirs 8.947368421052632
+DIFF  13.18.complete/F6/400/gap
+      ours 4.286458107345858 | theirs 5.814639649412071
+DIFF  13.18.complete/F6/600/SEAL:S
+      ours 4.616652926628195 | theirs 7.089859851607584
+DIFF  13.18.complete/F6/600/TAB:I
+      ours 17.36842105263158 | theirs 21.57894736842105
+DIFF  13.18.complete/F6/600/gap
+      ours 12.751768126003384 | theirs 14.489087516813466
+DIFF  13.2.table3.all/POT:T:g/ktri_over_n
+      ours 100.0 | theirs 1.0
+DIFF  13.2.table3.all/SEAL:R/ktri_over_n
+      ours 88.13559322033899 | theirs 0.8813559322033898
+DIFF  13.2.table3.all/SEAL:S/ktri_over_n
+      ours 74.5646437994723 | theirs 0.745646437994723
+DIFF  13.2.table3.all/TAB:B/ktri_over_n
+      ours 76.40603566529492 | theirs 0.7640603566529492
+DIFF  13.2.table3.all/TAB:I/ktri_over_n
+      ours 82.88973384030419 | theirs 0.8288973384030418
+DIFF  13.2.table3.complete/POT:T:g/ktri_over_n
+      ours 100.0 | theirs 1.0
+DIFF  13.2.table3.complete/SEAL:R/ktri_over_n
+      ours 89.0909090909091 | theirs 0.8909090909090909
+DIFF  13.2.table3.complete/SEAL:S/ktri_over_n
+      ours 76.81159420289855 | theirs 0.7681159420289855
+DIFF  13.2.table3.complete/TAB:B/ktri_over_n
+      ours 83.46972176759411 | theirs 0.8346972176759411
+DIFF  13.2.table3.complete/TAB:I/ktri_over_n
+      ours 87.05357142857143 | theirs 0.8705357142857143
+DIFF  13.7.all/C_terminals/top3[0]/distinct_stems
+      ours 513 | theirs 508
+DIFF  13.7.all/C_terminals/top3[0]/distinct_stems_pct
+      ours 95.53072625698324 | theirs 94.59962756052141
+DIFF  13.7.all/C_terminals/top3[0]/stems_once_pct
+      ours 91.80633147113593 | theirs 90.31657355679702
+DIFF  13.7.all/C_terminals/top3[1]/distinct_stems
+      ours 132 | theirs 130
+DIFF  13.7.all/C_terminals/top3[1]/distinct_stems_pct
+      ours 95.65217391304348 | theirs 94.20289855072464
+DIFF  13.7.all/C_terminals/top3[1]/stems_once_pct
+      ours 91.30434782608695 | theirs 88.40579710144928
+DIFF  13.8.all/appendix_G4/G4b_mean_length/core
+      ours 4.646352723915051 | theirs 4.637231503579952
+DIFF  13.8.all/appendix_G4/G4b_mean_length/regional
+      ours 4.191666666666666 | theirs 4.282828282828283
+DIFF  13.8.complete/appendix_G4/G4b_mean_length/core
+      ours 4.792332268370607 | theirs 4.918864097363083
+DIFF  13.8.complete/appendix_G4/G4b_mean_length/regional
+      ours 4.253658536585366 | theirs 4.481981981981982
+==============================================================================================================
+PRINTED NUMBERS (registry entries) whose sources are in Codex's scope
+{'AGREE': 262, 'OUT-OF-SCOPE': 251, 'DIFFER': 23}
+  DIFFER           nCisiPct
+      13.16/P2/pct_analyzable ours 88.48101265822785 | theirs 97.37629864412749
+  DIFFER           nFsixGapSixHundred
+      13.18.complete/F6/600/gap ours 46.913780889277824 | theirs 45.240238363128725
+  DIFFER           nGradMeanCore
+      13.8.complete/appendix_G4/G4b_mean_length/core ours 4.70061099796334 | theirs 4.826044703595724
+  DIFFER           nGradMeanReg
+      13.8.complete/appendix_G4/G4b_mean_length/regional ours 4.194312796208531 | theirs 4.432314410480349
+  DIFFER           nRowsNoLegible
+      13.16/P4/rows_without_legible_sign ours 148 | theirs 149
+  DIFFER           nSignMarkerEnrichA
+      13.17.complete/marker/half_740a/enrichment ours 15.521177270759908 | theirs 15.67770183009418
+  DIFFER           nSignMarkerEnrichB
+      13.17.complete/marker/half_740b/enrichment ours 16.086685356096638 | theirs 15.92258702776232
+  DIFFER           nSignMarkerEnrichDoneA
+      13.17.complete/marker/half_740a/enrichment ours 16.165873137766855 | theirs 15.199303742384684
+  DIFFER           nSignMarkerEnrichDoneB
+      13.17.complete/marker/half_740b/enrichment ours 15.05259231629989 | theirs 15.974382974530764
+  DIFFER           nSignMarkerTermA
+      13.17.complete/marker/half_740a/terminal_pct ours 19.36560934891486 | theirs 19.198664440734557
+  DIFFER           nSignMarkerTermB
+      13.17.complete/marker/half_740b/terminal_pct ours 19.69949916527546 | theirs 19.86644407345576
+  DIFFER           nTabThreePotGKtri
+      13.2.table3.complete/POT:T:g/ktri_over_n ours 100.0 | theirs 1.0
+  DIFFER           nTabThreeSealRKtri
+      13.2.table3.complete/SEAL:R/ktri_over_n ours 88.3495145631068 | theirs 0.883495145631068
+  DIFFER           nTabThreeSealSKtri
+      13.2.table3.complete/SEAL:S/ktri_over_n ours 76.03108188882247 | theirs 0.7603108188882247
+  DIFFER           nTabThreeTabBKtri
+      13.2.table3.complete/TAB:B/ktri_over_n ours 44.38642297650131 | theirs 0.44386422976501305
+  DIFFER           nTabThreeTabIKtri
+      13.2.table3.complete/TAB:I/ktri_over_n ours 48.6284289276808 | theirs 0.486284289276808
+  DIFFER           nTabTwoDirEnders
+      13.1.table2/sensitivity_rl_lr/enders_top23 ours 83.60612460401268 | theirs 83.61477572559367
+  DIFFER           nTabTwoDirMeanLen
+      13.1.table2/sensitivity_rl_lr/mean_legible_length ours 3.6942946990116803 | theirs 3.6946564885496183
+  DIFFER           nTabTwoDirN
+      13.1.table2/sensitivity_rl_lr/N ours 4452 | theirs 4454
+  DIFFER           nTabTwoDirStarters
+      13.1.table2/sensitivity_rl_lr/starters_top82 ours 81.07193229901269 | theirs 81.04906937394247
+  DIFFER           nTabTwoDirTopEightyTwo
+      13.1.table2/sensitivity_rl_lr/top82_coverage ours 82.41624612391317 | theirs 82.41978609625669
+  DIFFER           nTabTwoDirTopSign
+      13.1.table2/sensitivity_rl_lr/top_sign_share ours 11.193530735088466 | theirs 11.199562469615946
+  DIFFER           nTabTwoDirTopSixtyNine
+      13.1.table2/sensitivity_rl_lr/top69_coverage ours 79.09041162522041 | theirs 79.0957705396208

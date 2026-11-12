@@ -1,0 +1,8 @@
+data/
+analysis/out/
+analysis/out_any_input/
+independent/codex/work/
+independent/gemini_v1/output.json
+independent/gemini_v2/output_v2.json
+__pycache__/
+*.pyc

@@ -1,0 +1,28 @@
+R1 13.1 Table 2 R/L-L/R row, 'R/l' counted as R/L          D0  reproduces Codex: True  | equals our printed run: False
+R1 13.1 M-342 R/L-L/R row, 'R/l' counted as R/L            D0  reproduces Codex: True  | equals our printed run: False
+R2 13.17 marker, split drawn over eligible texts (all)     D0  reproduces Codex: True  | equals our printed run: False
+R3 13.18 F6, rarest ranked within the population (all)     D0  reproduces Codex: True  | equals our printed run: True
+R4 13.8 G4b mean length over all multi-sign seals (all)    D0  reproduces Codex: True  | equals our printed run: False
+R5 13.7 07-C stems without 000 (all)                       D0  reproduces Codex: True  | equals our printed run: False
+R2 13.17 marker, split drawn over eligible texts (complete) D0  reproduces Codex: True  | equals our printed run: False
+R3 13.18 F6, rarest ranked within the population (complete) D0  reproduces Codex: True  | equals our printed run: False
+R4 13.8 G4b mean length over all multi-sign seals (complete) D0  reproduces Codex: True  | equals our printed run: False
+R5 13.7 07-C stems without 000 (complete)                  D0  reproduces Codex: True  | equals our printed run: True
+R1 13.1 Table 2 R/L-L/R row, 'R/l' counted as R/L          D1  reproduces Codex: True  | equals our printed run: False
+R1 13.1 M-342 R/L-L/R row, 'R/l' counted as R/L            D1  reproduces Codex: True  | equals our printed run: False
+R2 13.17 marker, split drawn over eligible texts (all)     D1  reproduces Codex: True  | equals our printed run: False
+R3 13.18 F6, rarest ranked within the population (all)     D1  reproduces Codex: True  | equals our printed run: False
+R4 13.8 G4b mean length over all multi-sign seals (all)    D1  reproduces Codex: True  | equals our printed run: False
+R5 13.7 07-C stems without 000 (all)                       D1  reproduces Codex: True  | equals our printed run: False
+R2 13.17 marker, split drawn over eligible texts (complete) D1  reproduces Codex: True  | equals our printed run: False
+R3 13.18 F6, rarest ranked within the population (complete) D1  reproduces Codex: True  | equals our printed run: False
+R4 13.8 G4b mean length over all multi-sign seals (complete) D1  reproduces Codex: True  | equals our printed run: False
+R5 13.7 07-C stems without 000 (complete)                  D1  reproduces Codex: True  | equals our printed run: True
+U1 K_tri/N unit (all)                                      D0  ours/100 == Codex in every class: True
+U1 K_tri/N unit (complete)                                 D0  ours/100 == Codex in every class: True
+U1 K_tri/N unit (all)                                      D1  ours/100 == Codex in every class: True
+U1 K_tri/N unit (complete)                                 D1  ours/100 == Codex in every class: True
+K1 13.16 P2 key meaning                                    D0  counts equal; ours = CISI/analyzable, Codex = analyzable/all: True
+K2 13.16 P4 malformed row counted by Codex                 D0  Codex = ours + malformed (1): True
+
+ALL READINGS REPRODUCE CODEX: True (26 checks)

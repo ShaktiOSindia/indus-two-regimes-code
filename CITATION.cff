@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this repository."
+title: "indus-two-regimes-code: analysis code for 'Two Sign-Regimes in the Indus Corpus'"
+authors:
+  - family-names: Khanna
+    given-names: Praveen
+    orcid: "https://orcid.org/0009-0000-7052-4406"
+version: "v1.0-chr2027"
+date-released: "2026-11-12"
+license: MIT
+repository-code: "https://github.com/ShaktiOSindia/indus-two-regimes-code"
+preferred-citation:
+  type: conference-paper
+  title: "Two Sign-Regimes in the Indus Corpus: Templated Tablets and Marker-Anchored Seals"
+  authors:
+    - family-names: Khanna
+      given-names: Praveen
+  collection-title: "Proceedings of the Computational Humanities Research Conference 2027 (CHR 2027)"
+  year: 2027
